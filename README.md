@@ -1,0 +1,1 @@
+# apedoge-community-framework
