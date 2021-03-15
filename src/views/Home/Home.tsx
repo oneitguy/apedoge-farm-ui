@@ -10,7 +10,7 @@ import Balances from './components/Balances'
 const Home: React.FC = () => {
   return (
     <Page>
-      <Image src="/images/apesafe-banner-4.png" />
+      <Image src="/images/apesafe-banner-5.png" />
       <Blank />
       <Container>
         <Balances />
@@ -34,7 +34,8 @@ const Home: React.FC = () => {
 const Image = styled.img`
   position: absolute;
   z-index: -3;
-  top: 10%;
+  top: 16%;
+  width: 100%;
   @media (max-width: 500px) {
     width: 100vw;
   }

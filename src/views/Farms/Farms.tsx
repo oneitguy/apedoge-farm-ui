@@ -13,7 +13,7 @@ const Farms: React.FC<FarmsProps> = ({ removed }) => {
   return (
     <Page>
       <Title>{TranslateString(320, 'FARMS')}</Title>
-      <ImageTop src="/images/apesafe-banner-4.png" />
+      <ImageTop src="/images/apesafe-banner-5.png" />
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
@@ -47,7 +47,8 @@ const StyledLink = styled(NavLink)`
 const ImageTop = styled.img`
   position: absolute;
   z-index: -3;
-  top: 10%;
+  top: 16%;
+  width: 100%;
   @media (max-width: 500px) {
     width: 100vw;
   }
