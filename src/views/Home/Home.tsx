@@ -10,7 +10,7 @@ import Balances from './components/Balances'
 const Home: React.FC = () => {
   return (
     <Page>
-      {/* <Image src="/images/BG1.png" /> */}
+      <Image src="/images/apesafe-banner-1.jpg" />
       <Blank />
       <Container>
         <Balances />
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         }}
       >
         <Button
-          text={`🐶🐵 ${TranslateString(306, 'Let\'s Ape!')}`}
+          text={`🐵🐶 ${TranslateString(306, 'Let\'s Ape!')}`}
           to="/farms"
           variant="secondary"
         />
