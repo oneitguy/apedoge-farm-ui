@@ -65,7 +65,7 @@ const FarmCards: React.FC<FarmCardsProps> = ({ removed }) => {
     : farms.filter((farm) => farm.pid !== 40 && farm.multiplier === '0X')
   const bnbPrice = useBnbPrice()
 
-  // temp fix 
+  // temp fix
   const staxBalance = useTokenBalance2(
     '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
     '0x7cd05f8b960ba071fdf69c750c0e5a57c8366500',
@@ -191,7 +191,7 @@ const FarmCards: React.FC<FarmCardsProps> = ({ removed }) => {
                 </Label>
                 <Label>
                   <span>{TranslateString(318, 'Earn')}</span>
-                  <span className="right">CAKE</span>
+                  <span className="right">APESAFE</span>
                 </Label>
                 <Action>
                   <Button
@@ -354,7 +354,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed }) => {
       <Label>
         <span>{TranslateString(318, 'Earn')}</span>
         <span className="right">
-          {farm.tokenSymbol === 'HARD' ? 'CAKE & HARD' : 'CAKE'}
+          {farm.tokenSymbol === 'HARD' ? 'CAKE & HARD' : 'APESAFE'}
         </span>
       </Label>
       {!removed && (

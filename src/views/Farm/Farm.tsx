@@ -38,7 +38,7 @@ const Farm: React.FC = () => {
           src={`/images/tokens/category-${tokenSymbol || 'CAKE'}.png`}
           alt={tokenSymbol}
         />
-        <Title>{TranslateString(320, 'POOLS')}</Title>
+        <Title>{TranslateString(320, 'FARMS')}</Title>
         {isHardToken && <DualFarmDisclaimer />}
       </Header>
       <StyledFarm>

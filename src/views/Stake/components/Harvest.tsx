@@ -28,7 +28,7 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
           <StyledCardHeader>
             <CardIcon>🥞</CardIcon>
             <Value value={getBalanceNumber(earnings)} />
-            <Label text={TranslateString(330, 'CAKE Earned')} />
+            <Label text={TranslateString(330, 'APESAFE Earned')} />
           </StyledCardHeader>
           <StyledCardActions>
             <Button

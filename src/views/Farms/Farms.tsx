@@ -12,7 +12,7 @@ interface FarmsProps {
 const Farms: React.FC<FarmsProps> = ({ removed }) => {
   return (
     <Page>
-      <Title>{TranslateString(320, 'POOLS')}</Title>
+      <Title>{TranslateString(320, 'FARMS')}</Title>
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
