@@ -66,7 +66,8 @@ const Title = styled.div`
   width: 50vw;
   text-align: center;
   font-weight: 900;
-  margin: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 `
 
 export default Farms
