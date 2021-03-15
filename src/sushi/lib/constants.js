@@ -293,12 +293,12 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
+      97: '0x44ac388cab568433c967c0cb292b9195d7f88df2',
       56: '0x44ac388cab568433c967c0cb292b9195d7f88df2',
     },
     tokenAddresses: {
       97: '0xfd0d3774545df70cbb843de32a3dfd33e8092ec9',
-      56: '0x9a1094185bbd789ceb9df4b000ca5f18094dba0e',
+      56: '0xfd0d3774545df70cbb843de32a3dfd33e8092ec9',
     },
     name: 'APESAFE STAKING',
     symbol: 'APEDOGE-APESAFE',
@@ -309,12 +309,12 @@ export const supportedPools = [
   {
     pid: 1,
     lpAddresses: {
-      97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0x4Fb774Fa6D6D4e248187Ab8Ddb0d30729e3Ee5a3',
+      97: '0x4fb774fa6d6d4e248187ab8ddb0d30729e3ee5a3',
+      56: '0x4fb774fa6d6d4e248187ab8ddb0d30729e3ee5a3',
     },
     tokenAddresses: {
-      97: '0x9a1094185bbd789ceb9df4b000ca5f18094dba0e',
-      56: '0x055dab90880613a556a5ae2903b2682f8a5b8d27',
+      97: '0xfd0d3774545df70cbb843de32a3dfd33e8092ec9',
+      56: '0xfd0d3774545df70cbb843de32a3dfd33e8092ec9',
     },
     name: 'APESAFE STAKING',
     symbol: 'APEDOGE-MOCHI',
@@ -325,12 +325,12 @@ export const supportedPools = [
   {
     pid: 2,
     lpAddresses: {
-      97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
+      97: '0xdaa6d9a239d1a77af6a369fb0b1b9118ffa45a12',
       56: '0xdaa6d9a239d1a77af6a369fb0b1b9118ffa45a12',
     },
     tokenAddresses: {
       97: '0xfd0d3774545df70cbb843de32a3dfd33e8092ec9',
-      56: '0x055dab90880613a556a5ae2903b2682f8a5b8d27',
+      56: '0xfd0d3774545df70cbb843de32a3dfd33e8092ec9',
     },
     name: 'APESAFE STAKING',
     symbol: 'APESAFE-MOCHI',
