@@ -304,7 +304,7 @@ export const supportedPools = [
     symbol: 'APEDOGE-APESAFE',
     tokenSymbol: 'APESAFE',
     icon: '',
-    multiplier: '2X',
+    multiplier: '2X 🔥',
   },
   {
     pid: 1,
@@ -320,6 +320,7 @@ export const supportedPools = [
     symbol: 'APEDOGE-MOCHI',
     tokenSymbol: 'MOCHI',
     icon: '',
+    multiplier: '1X',
   },
   {
     pid: 2,
@@ -335,6 +336,7 @@ export const supportedPools = [
     symbol: 'APEDOGE-WBNB',
     tokenSymbol: 'WBNB',
     icon: '',
+    multiplier: '1X',
   },
   // {
   //   pid: 1,
