@@ -13,7 +13,7 @@ const useTheme = () => {
   useEffect(() => {
     try {
       const themeSetting = isDark ? '1' : '0'
-      localStorage.setItem(THEME_CACHE_KEY, themeSetting)
+      localStorage.setItem(THEME_CACHE_KEY, '1')
     } catch (error) {}
   }, [isDark])
 
