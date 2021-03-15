@@ -22,7 +22,7 @@ export const INTEGERS = {
 
 export const contractAddresses = {
   sushi: {
-    97: '0x43acC9A5E94905c7D31415EB410F3E666e5F1e9A',
+    97: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
     56: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
     // 56: '0xbbB2aaEB8c9dA72bb7faDB42A9c84AACF26974Fd'
   },
@@ -31,8 +31,8 @@ export const contractAddresses = {
     56: '0x009cF7bC57584b7998236eff51b98A168DceA9B0',
   },
   masterChef: {
-    97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
-    56: '0xf6dea2b05e88b15d070efa7da3d9ad35747ce3dc', //  real cake
+    97: '0xE57369D72D25160CB16AD421B3A037D5c818728c',
+    56: '0xE57369D72D25160CB16AD421B3A037D5c818728c', //  real cake
     // 56: '0x39447351Fe7939C064CDD9A258F22FC76233E28e'
   },
   sousChef: {
