@@ -34,10 +34,10 @@ const Farm: React.FC = () => {
   return (
     <StyledPage>
       <Header>
-        <Image
+        {/* <Image
           src={`/images/tokens/category-${tokenSymbol || 'CAKE'}.png`}
           alt={tokenSymbol}
-        />
+        /> */}
         <Title>{TranslateString(320, 'FARMS')}</Title>
         {isHardToken && <DualFarmDisclaimer />}
       </Header>
