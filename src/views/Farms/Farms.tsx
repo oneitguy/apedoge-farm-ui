@@ -13,6 +13,7 @@ const Farms: React.FC<FarmsProps> = ({ removed }) => {
   return (
     <Page>
       <Title>{TranslateString(320, 'FARMS')}</Title>
+      <ImageTop src="/images/apesafe-banner-4.png" />
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
@@ -26,7 +27,6 @@ const Farms: React.FC<FarmsProps> = ({ removed }) => {
           Inactive Pools
         </NavLink>
       )} */}
-      <Image src="/images/apesafe-banner-0.jpg" />
     </Page>
   )
 }
@@ -42,6 +42,14 @@ const StyledLink = styled(NavLink)`
     padding: 0 20px;
     margin-bottom: 30px;
     color: #fff;
+  }
+`
+const ImageTop = styled.img`
+  position: absolute;
+  z-index: -3;
+  top: 10%;
+  @media (max-width: 500px) {
+    width: 100vw;
   }
 `
 
