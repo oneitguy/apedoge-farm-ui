@@ -128,7 +128,7 @@ const App: React.FC = () => {
             <Route path="/farms/:farmId">
               <Farm />
             </Route>
-            <Route path="/staking">
+            {/* <Route path="/staking">
               <Stake />
             </Route>
             <Route path="/syrup">
@@ -142,7 +142,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/staking2">
               <Syrup2 />
-            </Route>
+            </Route> */}
             <Route path="/removed">
               <Farms removed={true} />
             </Route>

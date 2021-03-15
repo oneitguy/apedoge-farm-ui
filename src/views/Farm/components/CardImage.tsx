@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 const CardImage = styled.img`
-  height: 48px;
+  height: 156px;
   margin-bottom: 16px;
-  width: 48px;
+  width: 156px;
 `
 
 export default CardImage

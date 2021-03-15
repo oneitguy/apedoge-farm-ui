@@ -9,13 +9,15 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ isDark }) => {
   return (
     <StyledLogo to="/">
-      {/* <img
-        src={`/images/${isDark ? 'chef3' : 'chef2'}.png`}
-        height="32"
-        style={{ marginTop: -4 }}
-        alt="PancakeSwap"
-      /> */}
-      <a href="/">HOME</a>
+      <a href="/">
+        <img
+          src="/images/tokens/APEDOGE.png"
+          height="76"
+          style={{ marginTop: -4 }}
+          alt="ApeSafe Home"
+        />
+      </a>
+      {/* <a href="/">HOME</a> */}
     </StyledLogo>
   )
 }

@@ -26,7 +26,7 @@ const Farms: React.FC<FarmsProps> = ({ removed }) => {
           Inactive Pools
         </NavLink>
       )} */}
-      {/* <Image src="/images/cakecat.png" /> */}
+      <Image src="/images/apesafe-banner-0.jpg" />
     </Page>
   )
 }
