@@ -380,7 +380,7 @@ export const supportedPools = [
       97: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
       56: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
     },
-    name: 'SOLO APESAFE',
+    name: 'APESAFE',
     symbol: 'APESAFE',
     tokenSymbol: 'APESAFE',
     icon: '',
