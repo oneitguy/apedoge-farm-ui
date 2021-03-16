@@ -334,7 +334,7 @@ export const supportedPools = [
     },
     name: 'APESAFE STAKING',
     symbol: 'APESAFE-MOCHI',
-    tokenSymbol: 'MOCHI',
+    tokenSymbol: 'MOCHII',
     icon: '',
     multiplier: '1X',
   },
@@ -350,7 +350,7 @@ export const supportedPools = [
     },
     name: 'APESAFE STAKING',
     symbol: 'APESAFE-BUSD',
-    tokenSymbol: 'APESAFE',
+    tokenSymbol: 'BUSD',
     icon: '',
     multiplier: '1.5x',
   },
@@ -382,7 +382,7 @@ export const supportedPools = [
     },
     name: 'APESAFE',
     symbol: 'APESAFE',
-    tokenSymbol: 'APESAFE',
+    tokenSymbol: 'APESAFESINGLE',
     icon: '',
     multiplier: '0.5x',
   },
@@ -398,10 +398,12 @@ export const supportedPools = [
     },
     name: 'APEDOGE',
     symbol: 'APEDOGE',
-    tokenSymbol: 'APESAFE',
+    tokenSymbol: 'APEDOGESINGLE',
     icon: '',
     multiplier: '0.5x',
   },
+
+
 ]
 
 export const forShowPools = [
