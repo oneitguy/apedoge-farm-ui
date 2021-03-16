@@ -386,8 +386,22 @@ export const supportedPools = [
     icon: '',
     multiplier: '0.5x',
   },
-
-  
+  {
+    pid: 6,
+    lpAddresses: {
+      97: '0x9a1094185bbd789ceb9df4b000ca5f18094dba0e',
+      56: '0x9a1094185bbd789ceb9df4b000ca5f18094dba0e',
+    },
+    tokenAddresses: {
+      97: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+      56: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+    },
+    name: 'APEDOGE',
+    symbol: 'APEDOGE',
+    tokenSymbol: 'APESAFE',
+    icon: '',
+    multiplier: '0.5x',
+  },
 ]
 
 export const forShowPools = [
