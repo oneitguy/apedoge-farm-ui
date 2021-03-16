@@ -361,8 +361,8 @@ export const supportedPools = [
       56: '0xbd8afd0848a6e1be9eae3e617024adff5bc47618',
     },
     tokenAddresses: {
-      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      97: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+      56: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
     },
     name: 'APEDOGE-BNB',
     symbol: 'APEDOGE-WBNB',
@@ -370,6 +370,24 @@ export const supportedPools = [
     icon: '',
     multiplier: '1.5x',
   },
+  {
+    pid: 5,
+    lpAddresses: {
+      97: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+      56: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+    },
+    tokenAddresses: {
+      97: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+      56: '0xFD0D3774545dF70cBB843dE32a3DFd33E8092Ec9',
+    },
+    name: 'SOLO APESAFE',
+    symbol: 'APESAFE',
+    tokenSymbol: 'APESAFE',
+    icon: '',
+    multiplier: '0.5x',
+  },
+
+  
 ]
 
 export const forShowPools = [
